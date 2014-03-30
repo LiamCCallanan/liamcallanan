@@ -170,36 +170,36 @@ html,body { -webkit-text-size-adjust:none; }
 }
 
 #about{
-	background: url(./Website_Sidebar.png);
+	background-image: url(./Website_Sidebar.png);
 }
 #design{
-	background: url(./Website_Sidebar2.png);
+	background-image: url(./Website_Sidebar2.png);
 }
 #photography{
-	background: url(./Website_Sidebar3.png);
+	background-image: url(./Website_Sidebar3.png);
 }
 #programs{
-	background: url(./Website_Sidebar4.png);
+	background-image: url(./Website_Sidebar4.png);
 }
 #music{
-	background: url(./Website_Sidebar5.png);
+	background-image: url(./Website_Sidebar5.png);
 }
 .tab{
 	height:100px;
 	width: 100px;
-	position:inline-block !important;
+	position:inline-block;
 	float: right;
 	margin-top: 50px;
 	color: #000000;
 
-	background-size: 200% 100% !important;
+	background-size: 200% 100%;
 	background-repeat: no-repeat;
-	background-position:left top;
+	background-position:bottom left;
 	
 	top: 0px;
 	padding:0;
 	
 }
 .tab:hover {
-	background-position:right bottom !important;
+	background-position:bottom right;
 }
