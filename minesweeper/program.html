@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC>
+<html>
+<head>
+	<script src="jquery.js"></script> 
+	<script src="grid.js"></script>
+	<link rel="stylesheet" href="sweepstyle.css" />
+</head>
+<body>
+	<div id="smileyArea" style="background-size: 40px 40px;background-color:rgba(0,0,0,0);height:40px;width:1280px;text-align:center; position: inline-block;">
+			
+
+			<div id = "timerLogo" style="
+			background: url(./clock2.png);
+			margin-left: 5px;
+			background-size: 100% 100%;
+			background-position: top left;
+			background-repeat: no-repeat;
+			position: inline-block;
+			float:right;
+			height: 40px;
+			width: 40px;
+			"></div>
+			<div id = "timer" style="
+			background-size: 100% 100%;
+			background-position: center left;
+			background-repeat: no-repeat;
+			height:40px;width:60px;
+			padding:0;
+			position:relative;
+			float:right;
+			font-family:'RosesareFF0000';
+			text-align: right;
+			color:#000000
+			">0</div>
+
+			<div id = "minesLogo" style="
+			background: url(./flag.png);
+			margin-right: 5px;
+			background-size: 100% 100%;
+			background-position: top left;
+			background-repeat: no-repeat;
+			position: inline-block;
+			float:left;
+			height: 40px;
+			width: 40px;
+			"></div>
+			<div id = "MinesLeft" style="
+			background-size: 40px 60px;
+			background-position: center left;
+			background-repeat: no-repeat;
+			height:40px;width:50px;
+			padding:0;
+			position:relative;
+			float:left;
+			font-family:'RosesareFF0000';
+			text-align: left;
+			color:#000000
+			">99</div>
+			<button id = "Smiley" style="
+			margin-left: -5px;
+			border:0px solid buttonface;
+			position:inline-block;
+			float:center;
+			height:40px;
+			width:40px;
+			padding:0;
+			"
+			onclick="location.href='./program.html';"></button>
+
+	</div>
+	
+	<div id="toplevel" style="
+	background: url(./grass.png);
+	background-size: 3.125% 100%;
+	background-color:rgba(0,0,0,0);
+	height:40px;width:1280px;
+	text-align:center;">
+		
+	</div>
+
+	<div id="MainBoard" style="background: url(./dirt.png);background-size: 40px 40px;background-color:rgba(0,0,0,0);height:600px;width:600px;">
+		<div id="buttonBackground" style="background-color:#000000;height:600px;width:600px;position:absolute;padding:0;">
+
+		</div>
+		<div id="visual" style="background: url(./stone.png);
+				opacity: 0.3;
+	 			background-size: 40px 40px; background-color:rgba(0,0,0,0);height:600px;width:600px;position:absolute;padding:0;">
+
+		</div>
+		<div id="buttonContainer" style=
+				"
+				height:600px;
+				width:600px;
+				position:absolute;
+				padding:0;">
+
+		</div>
+
+	</div>
+
+</body>
+</html>

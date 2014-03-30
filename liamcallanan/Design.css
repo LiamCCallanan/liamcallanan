@@ -1,0 +1,224 @@
+body{
+	background-color: #000000;
+	margin-left: auto;
+	margin-right: auto;
+}
+div{
+	color:white;
+	font-size: 45px;
+	font-family: RosesareFF0000;
+	line-height: 25px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@font-face{
+font-family: 'RosesareFF0000';
+ src: url('./RosesareFF0000.woff'); 
+    
+ font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+font-family: 'Medium';
+ src: url('./medium.woff'); 
+    
+ font-weight: normal;
+    font-style: normal;
+}
+
+
+html,body { -webkit-text-size-adjust:none; }
+
+#visual{
+	background-color:#D95F27;
+	height:1070px;
+	width: 980px;
+	position:relative;
+	padding:0;
+	z-index: -100;
+}
+#background{
+	z-index: 0;
+	background-color:#000000;
+	position: relative;
+	height:0px;
+	width: 980px;
+}
+
+#Title{
+	position: relative;
+	text-align:right;
+	padding-left: 0px;
+	padding-top: 0px;
+	margin-top: 20px;
+	margin-left: 0px;
+	font-size: 110px;
+	line-height: 150px;
+	height: 150px;
+	width: 980px;
+	color:#D95F27;
+}
+#statement{
+	font-size: 20px;
+	text-align:center;
+	line-height: 30px;
+	margin-top: 10px;
+	background-color: #000000;
+	color:#D95F27;
+	height: 50px;
+	width: 940px;
+
+}
+#photoWindow{
+	height:550px;
+	width: 900px;
+	border: 20px solid #222222;
+	margin-top: 0px;
+	text-align:center;
+	line-height: 425px;
+	background-color:#222222;
+	background-position:center center;
+	background-repeat: no-repeat;
+	background-image: url(./Website_Loading.png);
+}
+#photo{
+	margin-top: 0px;
+	height:550px;
+	width: 860px;
+	background-color:rgba(0,0,0,0);
+	background-size: contain;
+	max-height: 550px;
+	background-repeat: no-repeat;
+	background-position:center center;
+	background-image: url(./design/fullrez/Graphdes_Gallery_Banner.png);
+}
+#collectionTitle{
+	position:inline-block;
+	color: #D95F27;
+	height:15px;
+	width:900px;
+	padding:20px;
+	padding-top: 35px;
+	font-size: 36px;
+	line-height: 5px;
+}
+#browserWindow{
+	margin-top: 0px;
+	height:200px;
+	width:940px;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+#browser{
+	height:170px;
+	width:900px;
+	overflow-x: auto;
+	overflow-y: hidden;
+	border-left: 0px solid #D95F27;
+}
+#browserContent{
+	height:190px;
+	width:1400px;
+	margin:0px;
+	position:inline-block;
+}
+.content{
+	position: relative;
+	float:left;
+	height:190px;
+	width:940px;
+	margin-top: 20px;
+	margin-left: 20px;
+
+	background-color:#000000;
+}
+
+
+
+.thumbnail{
+	height:150px;
+	width:200px;
+	float:left;
+	background-color:#000000;
+	border-right:0px solid black;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position:left center;
+	position: inline-block;
+}
+
+
+#sidebar{
+	height:150px;
+	width: 550px;
+	float:right;
+	position:relative;
+	background-color:#000000;
+	background-size: auto 150px;
+	background-repeat: no-repeat;
+	background-position:left top;
+}
+#main{
+	height:150px;
+	width: 980px;
+	position:relative;
+}
+#home{
+	height:150px;
+	width: 300px;
+	position:inline-block;
+	float: left;
+
+	background: url(./Website_MainLogo.png);
+	background-color:#D95F27;
+	background-size: 100% 200%;
+	background-repeat: no-repeat;
+	background-position:left top;
+}
+#home:hover{
+	background-position:right bottom;
+}
+
+#about{
+	background: url(./Website_Sidebar.png);
+}
+#design{
+	background: url(./Website_Sidebar2.png);
+	background-position:right top;
+}
+#photography{
+	background: url(./Website_Sidebar3.png);
+
+}
+#programs{
+	background: url(./Website_Sidebar4.png);
+}
+#music{
+	background: url(./Website_Sidebar5.png);
+}
+.tab{
+	height:100px;
+	width: 100px;
+	position:inline-block !important;
+	float: right;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	color: #000000;
+
+	background-size: 200% 100% !important;
+	background-repeat: no-repeat;
+	background-position:left top;
+	
+	top: 0px;
+	padding:0;
+	
+}
+
+.tab:hover {
+	background-position:right bottom !important;
+}
+
+
